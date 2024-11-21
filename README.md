@@ -1,5 +1,5 @@
 # Projeto-Jogo-Detona-Ralph
-Repositorio dedicado ao projeto Jogo Detona Ralph na DIO
+Repositório dedicado ao projeto Jogo Detona Ralph na DIO
 
 Desafio de projeto pra criar um jogo simples utilizando HTML, CSS e Javascript.
 
@@ -10,4 +10,4 @@ Ao final de cada rodada, o Javascript mostra em forma de alerta/pop-up sua pontu
 Na última rodada, além da pontuação da rodada, aparece sua melhor pontuação dentro das 3 rodadas.
 Por fim, foi feito um botão pra reiniciar o jogo, ao invés do jogador ter que reiniciar a página.
 
-Projeto simples, mas que mostoru algumas funcionalidades interessantes.
+Projeto simples, mas que abordou algumas funcionalidades interessantes.
