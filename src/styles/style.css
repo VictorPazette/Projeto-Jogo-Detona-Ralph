@@ -1,0 +1,73 @@
+body {
+  background-color: #a9a9a9;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url("../images/brickwall.jpg");
+  background-size: cover;
+  }
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  height: 90px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #000000;
+  border-bottom: #ffd700 4px solid;
+  color: #ffffff;
+}
+
+#restart {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  color: #0026ff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  background-color: transparent;
+  border-color: #ff0000;
+}
+
+.menu-lives {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-lives img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.menu-score h2:nth-child(2), .menu-time h2:nth-child(2) {
+  margin-top: 10px;
+}
+
+.panel {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square {
+  height: 150px;
+  width: 150px;
+  border: 1px solid #000000;
+  background-color: #b7ffe7;
+}
+
+.enemy{
+  background-image: url("../images/detona-ralph.png");
+  background-size: cover;
+}
